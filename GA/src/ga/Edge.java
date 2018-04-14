@@ -21,21 +21,30 @@ public class Edge implements Comparable<Edge>
         this.weight = weight;
     }
     
-    public int either()
+    public int from()
     { 
         return v; 
     }
     
-    public int other(int vertex)
+    public int to(int vertex)
     {
         if (vertex == v) return w;
         else return v;
     } 
+
+    public double getWeight() {
+        return weight;
+    }
     
     public int compareTo(Edge that)
     {
         if (this.weight < that.weight) return -1;
         else if (this.weight > that.weight) return +1;
         else return 0;
+    }
+    
+    public int getFitness(){
+        
+        return 0;
     }
 }
