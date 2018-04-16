@@ -40,7 +40,7 @@ public class Bag_Array<Item> implements Bag<Item> {
         items = growFrom(source, size);
     }
     
-    private int capacity() {
+    public int capacity() {
         return items.length; // items should always be non-null when this method is called
     }
     
