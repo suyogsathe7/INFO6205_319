@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="GA/src"/>
+	<classpathentry kind="src" path="GA/test"/>
+	<classpathentry kind="lib" path="GA/dist/GA.jar"/>
+	<classpathentry kind="lib" path="GA/dist/lib/junit-4.12.jar"/>
+	<classpathentry kind="output" path="GA/build/classes"/>
+</classpath>
